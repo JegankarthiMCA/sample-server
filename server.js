@@ -3,7 +3,7 @@ const mongoose = require('mongoose')
 
 const app = express()
 
-const uri = 'mongodb+srv://jegankjack121:12345@cluster0.qbb81tx.mongodb.net/sample-server'
+const uri = 'DB link'
 
 async function connect() {
     try {
