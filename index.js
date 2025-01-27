@@ -6,7 +6,7 @@ const app = express();
 app.use(express.json()); // To parse incoming JSON data
 app.use(express.urlencoded({ extended: true })); // To parse form data
 
-const uri = 'mongodb+srv://jegankjack121:12345@cluster0.qbb81tx.mongodb.net/sample-server';
+const uri = 'DB Link';
 
 // Sample Data Schema
 const userSchema = new mongoose.Schema({
